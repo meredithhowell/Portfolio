@@ -1,3 +1,28 @@
+#leftnav{
+    position: fixed;   
+}
+#leftnav li{
+    padding: 10px;
+    color: #9a9a9a;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+}
+#leftnav a{
+   text-decoration: none;
+   color: #9a9a9a;
+}
+#leftnav a:hover{
+    
+}
+#list{
+    display: block;
+    list-style-type: none;
+    background-color: #1d1d1d;
+    padding: 75px 25px 0px 25px;
+    height: 100vh;
+    margin: -10px;
+}
+
 table{
     margin: 0 auto;
     
@@ -24,19 +49,12 @@ table{
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
-li{
+#right li{
     display: inline-block;
-    padding: 15px 30px 15px 30px;
-    text-align: center;
-    color: white;
-    background-color: #000;
-    font-family: 'Lato', sans-serif;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    
    
 } 
-ul{
+#right ul{
     display: block;
     vertical-align: middle;    
     margin: 0 auto;
@@ -44,12 +62,20 @@ ul{
     height: 50px;
     
 }
-a{
+#right a{
     text-decoration: none;
-    color: #fff;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    color: white;
+    background-color: #1d1d1d;
     font-family: 'Lato', sans-serif;
-
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-a:hover{
+.hover:hover{
+    background-color: #545454;
+}
+
     
 }

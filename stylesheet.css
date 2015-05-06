@@ -44,3 +44,23 @@
     display: inline-block;
 
 }
+#textbox{
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 50px;  
+    width: 650px;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+}
+#textbox p{
+    font-family: 'Lato', sans-serif;
+    width:600px;
+    display: inline-block;
+}    
+#filler{
+     margin: 0 auto;
+    height: 1000px;
+    width: 5px;
+}

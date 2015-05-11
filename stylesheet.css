@@ -41,13 +41,26 @@
     text-align: center;
 }
 
-.slideshow{
+.colorbox{
     height: 350px;
     width: 50vw;
     max-width: 800px;
     margin-top: 100px;
-    background-color: #E98977;
     display: inline-block;
+}
+#colorbox1{
+    background-color: #E98977;
+}
+#colorbox2{
+    background-color: #E98977;
+
+}
+#colorbox3{
+    background-color: #E98977;
+
+}
+#colorbox4{
+    background-color: #E98977;
 
 }
 #textbox{
@@ -66,8 +79,9 @@
     display: inline-block;
 } 
 .pages{
-    width: 80vw;
-    height: 600px;
+    padding-top: 100px;
+    width: %100;
+    height: 450px;
     text-align: center;
 }
 #web{
@@ -76,29 +90,15 @@
     width: 100%;
 }
 #web table{
-    padding-top: 120px;
-    display: inline-block; 
-    margin: 0 auto;   
-
-}
-#art table{
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 150px; 
-    margin-bottom: 150px;
-}
-table img{
-     width: 250px;
-    height: 250px;
-    border-radius: 150px;
-    margin: 45px;
+     margin-top: -35px;   
 }
 
 .ch-grid{
     margin: 0 auto;
-	padding-left: 20px;
-	display: block;
+    padding: 50px;
+    display: inline-block;
 	text-align: center;
+    margin-bottom: 500px;
 }
 .ch-grid:after,
 .ch-item:before {
@@ -113,12 +113,12 @@ table img{
 .ch-grid td {
 	width: 250px;
 	height: 250px;
-    margin: 45px;
+    margin: 50px;
 	display: inline-block;
 }
 .ch-item {
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height: 250px;;
 	border-radius: 50%;
 	overflow: hidden;
 	position: relative;
@@ -147,6 +147,15 @@ table img{
 }
 .ch-img-6 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/283823/screenshots/2053409/party_icons_1x.png);
+}
+.ch-img-7 { 
+	background-image: url(http://www.cssdesignawards.com/cdasites/2012/201212/20121211011520.jpg);
+}
+.ch-img-8 { 
+	background-image: url(http://www.1stwebdesigner.com/wp-content/uploads/2011/02/nathan-sanders-online-portfolio.jpg);
+}
+.ch-img-9 { 
+	background-image: url(http://skillcrush.com/wp-content/uploads/2013/03/term-portfolio.jpg);
 }
 .ch-info {
 	position: absolute;

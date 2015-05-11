@@ -76,25 +76,16 @@
     width: 100%;
 }
 #web table{
-    margin-top: 150px;
-    display: inline-block;   
+    padding-top: 120px;
+    display: inline-block; 
+    margin: 0 auto;   
+
 }
 #art table{
     display: inline-block;
+    margin: 0 auto;
     margin-top: 150px; 
     margin-bottom: 150px;
-}
-.boxes{
-    height: 200px;
-    width: 200px;
-    margin: 50px;
-    background-color: #E98977;
-}
-.boxes2{
-    height: 200px;
-    width: 200px;
-    margin: 50px;
-    background-color: #E98977;   
 }
 table img{
      width: 250px;
@@ -102,15 +93,12 @@ table img{
     border-radius: 150px;
     margin: 45px;
 }
-#web table{
-    diaply: block;
-     margin: 0 auto;   
-}
+
 .ch-grid{
-	padding: 0;
+    margin: 0 auto;
+	padding-left: 20px;
 	display: block;
 	text-align: center;
-	width: 100%;
 }
 .ch-grid:after,
 .ch-item:before {
@@ -150,6 +138,15 @@ table img{
 
 .ch-img-3 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/237814/screenshots/2053276/jt_contradictory-world_final_drib-1_1x.jpg);
+}
+.ch-img-4 { 
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/21415/screenshots/2053515/birds_1x.jpg);
+}
+.ch-img-5 { 
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/485324/screenshots/2054221/open-uri20150508-11-h24y5d_1x);
+}
+.ch-img-6 { 
+	background-image: url(https://d13yacurqjgara.cloudfront.net/users/283823/screenshots/2053409/party_icons_1x.png);
 }
 .ch-info {
 	position: absolute;

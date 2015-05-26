@@ -178,14 +178,10 @@
     display: inline-block;
 	text-align: center;
     margin-bottom: 0px;
+    width: 60vw;
+    max-width: 650px;
 }
 
-.ch-grid td {
-	width: 220px;
-	height: 220px;
-    margin: 50px;
-	display: inline-block;
-}
 .ch-item {
 	width: 220px;
 	height: 220px;
@@ -201,32 +197,42 @@
 /* ch-img 1-6: bottom section; ch-img 7-9: top section*/
 .ch-img-1 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/162508/screenshots/2053238/onboarding2_1x.png);
+    float: left;
 }
-
 .ch-img-2 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/37624/screenshots/2053540/koolkatz_1x.jpg);
-}
+    display: inline;
 
+}
 .ch-img-3 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/237814/screenshots/2053276/jt_contradictory-world_final_drib-1_1x.jpg);
+    float: right;
 }
 .ch-img-4 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/21415/screenshots/2053515/birds_1x.jpg);
+     float: left;
+
 }
 .ch-img-5 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/485324/screenshots/2054221/open-uri20150508-11-h24y5d_1x);
+    display: inline;
 }
 .ch-img-6 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/283823/screenshots/2053409/party_icons_1x.png);
+     float: right;
 }
 .ch-img-7 { 
 	background-image: url(http://www.cssdesignawards.com/cdasites/2012/201212/20121211011520.jpg);
+     float: left;
 }
 .ch-img-8 { 
 	background-image: url(http://www.1stwebdesigner.com/wp-content/uploads/2011/02/nathan-sanders-online-portfolio.jpg);
 }
 .ch-img-9 { 
 	background-image: url(http://skillcrush.com/wp-content/uploads/2013/03/term-portfolio.jpg);
+    float: right;
+}
+.td{
 }
 .ch-info {
 	position: absolute;

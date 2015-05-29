@@ -166,20 +166,17 @@
     background-color: #F4E9D9;
     width: 100%;
 }
-#web table{
-     margin-top: -35px;   
-}
 
 /* circle links*/
 
 .ch-grid{
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
     display: inline-block;
 	text-align: center;
     margin-bottom: 0px;
     width: 60vw;
-    max-width: 650px;
+    max-width: 850px;
 }
 
 .ch-item {
@@ -197,42 +194,37 @@
 /* ch-img 1-6: bottom section; ch-img 7-9: top section*/
 .ch-img-1 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/162508/screenshots/2053238/onboarding2_1x.png);
-    float: left;
 }
 .ch-img-2 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/37624/screenshots/2053540/koolkatz_1x.jpg);
-    display: inline;
 
 }
 .ch-img-3 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/237814/screenshots/2053276/jt_contradictory-world_final_drib-1_1x.jpg);
-    float: right;
 }
 .ch-img-4 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/21415/screenshots/2053515/birds_1x.jpg);
-     float: left;
 
 }
 .ch-img-5 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/485324/screenshots/2054221/open-uri20150508-11-h24y5d_1x);
-    display: inline;
 }
 .ch-img-6 { 
 	background-image: url(https://d13yacurqjgara.cloudfront.net/users/283823/screenshots/2053409/party_icons_1x.png);
-     float: right;
 }
 .ch-img-7 { 
 	background-image: url(http://www.cssdesignawards.com/cdasites/2012/201212/20121211011520.jpg);
-     float: left;
 }
 .ch-img-8 { 
 	background-image: url(http://www.1stwebdesigner.com/wp-content/uploads/2011/02/nathan-sanders-online-portfolio.jpg);
 }
 .ch-img-9 { 
 	background-image: url(http://skillcrush.com/wp-content/uploads/2013/03/term-portfolio.jpg);
-    float: right;
 }
 .td{
+    float: left;
+    margin: 25px;
+    
 }
 .ch-info {
 	position: absolute;
@@ -297,13 +289,78 @@
 }
 
 /*responsive design*/
-@media screen and (max-width: 1390px) and (min-width: 1250px) {
-    .ch-grid td {
-        margin: 2vw;
-    }
-    
-@media screen and (max-width: 1249px) {
-    
+@media screen and (max-width: 1390px) and (min-width: 1200px) {
+
+    .td{
+        margin: 10px;   
+    }   
 }
+@media screen and (max-width: 1199px) and (min-width: 900px) {
+     .colorbox {
+        width: 550px;
+    }
+    #web{
+        height: 600px;
+    }
+    .ch-grid{
+        width: 50vw;    
+    }
+}
+@media screen and (max-width: 899px) {
+    .slideshow-wrapper ul {
+    width: 2100px; /* 710 * 4 */
+    }
+    .slides .slide-image {
+    width:500px;
+    display:inline-block;
+    margin:0;
+    padding:0;
+    }
+    .slides .slide-image img {
+    width: 80%;
+    }
+    .slideshow-wrapper {
+    width: 704px;
+    overflow:hidden;
+    margin: 0 auto;
+}
+
+    @-webkit-keyframes slideshow {
+    0%    { margin-left: 0.5%; }
+    25%   { margin-left: -73%; }
+    50%   { margin-left: -146%; }
+    75%   { margin-left: -219%; }
+}
+@-moz-keyframes slideshow {
+     0%   	{ margin-left: 0.5%; }
+     25% 	{ margin-left: -70%; }
+     50% 	{ margin-left: -140%; }
+     75% 	{ margin-left: -210%; }
+}
+@-o-keyframes slideshow {
+    0%   	{ margin-left: 0.5%; }
+    25% 	{ margin-left: -75%; }
+    50% 	{ margin-left: -150%; }
+    75% 	{ margin-left: -230%; }
+}
+
+@keyframes slideshow {
+    0%   	{ margin-left: 0.5%; }
+    25% 	{ margin-left: -75%; }
+    50% 	{ margin-left: -150%; }
+    75% 	{ margin-left: -230%; }
+}
+    .colorbox {
+        width: 400px;
+    }
+
+     #web{
+        height: 900px;
+    }
+    .ch-grid{
+        width: 30vw;    
+    }
+}
+    
     
     
